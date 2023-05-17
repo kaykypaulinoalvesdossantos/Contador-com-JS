@@ -7,7 +7,7 @@ const updateValue = () => { // função para atualizar o valor em tela
     value.innerHTML = count;
 }
 
-let count = 10;
+let count = 0;
 
 let intervalId = 0; // utilizado para fazer o intervalo entre o envento do click , para quando segurar o botão adicionar mais de 1 ao contador 
 
